@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!-- 802c8a06a8b7dbc0b9aaf8dbb9e8dc1d97ca651b ad60fe06430d91f20edc7018d21cef55 -->
+      <meta charset="UTF-8">
+
+      <title>Disruptive Tech</title>
+      <meta itemprop="name" content="Disruptive Tech">
+      <meta name="twitter:title" content="Disruptive Tech">
+      <meta property="og:title" content="Disruptive Tech">
+      <meta property="og:site_name" content="Disruptive Tech">
+      <meta name="image" content="https://cdn.8thwall.com/apps/cover/4zi04nhxghsgpiu68ymeje5ffjvrgv4hr8d7xm1e54su3tnla0fddxyq-preview-1200x630">
+      <meta itemprop="image" content="https://cdn.8thwall.com/apps/cover/4zi04nhxghsgpiu68ymeje5ffjvrgv4hr8d7xm1e54su3tnla0fddxyq-preview-1200x630">
+      <meta property="og:image" content="https://cdn.8thwall.com/apps/cover/4zi04nhxghsgpiu68ymeje5ffjvrgv4hr8d7xm1e54su3tnla0fddxyq-preview-1200x630">
+      <meta name="twitter:image" content="https://cdn.8thwall.com/apps/cover/4zi04nhxghsgpiu68ymeje5ffjvrgv4hr8d7xm1e54su3tnla0fddxyq-preview-1200x630">
+    
+      <meta property="og:type" content="website">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="8thwall:workspace" content="hultdigital">
+      <meta name="8thwall:project" content="disruptive-tech">
+
+      <script async crossorigin="use-credentials" src="//apps.8thwall.com/xrweb?appKey=o1HOAow0RuqRLSVzl5l3YJiADl6CWPzqBioGjs7knaBKNFeTZJ3Hf8m9ES9cXawWx6Qd9E&s=1"></script>
+      
+      <script crossorigin="anonymous" src="//cdn.8thwall.com/web/aframe/8frame-1.1.0.min.js"></script>
+      <script crossorigin="anonymous" src="//cdn.8thwall.com/web/xrextras/xrextras.js?s=1"></script>
+      
+      <!-- Copyright (c) 2021 8th Wall, Inc. -->
+<!-- head.html is optional; elements will be added to your html head before app.js is loaded. -->
+
+<!-- Use "8thwall:" meta tags to hook into 8th Wall's build process and developer tools. -->
+<meta name="8thwall:renderer" content="aframe:1.1.0">
+<meta name="8thwall:package" content="@8thwall.xrextras">
+
+<!-- Other external scripts and meta tags can also be added. -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<script src="//cdn.8thwall.com/web/aframe/aframe-chromakey-material-1.1.1.min.js"></script>
+<script>dataLayer = []; </script>
+<!-- Google Tag Manager --> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MVK9ZTF');</script> <!-- End Google Tag Manager -->
+
+      
+    </head>
+    <body>
+      <script crossorigin="anonymous" src="//cdn.8thwall.com/web/hosting/app8-kkehwvog.js"></script>
+      <script type="text/javascript">app8("<!-- Copyright (c) 2021 8th Wall, Inc. -->\n<!-- body.html is optional; elements will be added to your html body after app.js is loaded. -->\n\n<a-scene\n  xrextras-gesture-detector\n  xrextras-almost-there\n  xrextras-runtime-error\n  tap-place\n  xrextras-loading=\"\n    loadBackgroundColor: #2b2b2b;\n    cameraBackgroundColor: #2b2b2b;\"\n  xrweb=\"disableWorldTracking: true\">\n\n  <a-assets>\n    <video\n      id=\"car\"\n      autoplay\n      muted \n      playsinline\n      crossorigin=\"anonymous\"\n      loop=\"true\"\n      src=\"/disruptive-tech/assets/AR-Car_11-j1n8zudffb.mp4\">\n    </video>\n    <video\n      id=\"brain\"\n      autoplay\n      muted \n      playsinline\n      crossorigin=\"anonymous\"\n      loop=\"true\"\n      src=\"/disruptive-tech/assets/AR-Brain_4-we3f4bo1rp.mp4\">\n    </video>\n    <video\n      id=\"watertank\"\n      autoplay\n      muted \n      playsinline\n      crossorigin=\"anonymous\"\n      loop=\"true\"\n      src=\"/disruptive-tech/assets/AR-Watertank_4-b1x57uj98v.mp4\">\n    </video>\n  </a-assets>\n\n\n\n  <a-camera\n    position=\"0 2 2\"\n    raycaster=\"objects: .cantap\"\n    cursor=\"fuse: false; rayOrigin: mouse;\">\n  </a-camera>\n\n  <a-light type=\"directional\" intensity=\"0.5\" position=\"1 1 1\"></a-light>\n\n  <a-light type=\"ambient\" intensity=\"1\"></a-light>\n\n  <!-- Note: \"name:\" must be set to the name of the image target uploaded to the 8th Wall Console -->\n  <a-entity\n    target-video=\"name: car-v1; video: #car;\"\n    material=\"shader: chromakey; src: #car; color: 0.1 0.9 0.2\"\n    geometry=\"primitive: plane; height: 0.79; width: 1.9;\">\n  </a-entity>\n\n  <a-entity\n    target-video=\"name: brain-v2; video: #brain;\"\n    material=\"shader: chromakey; src: #brain; color: 0.1 0.9 0.2\"\n    geometry=\"primitive: plane; height: 1.1; width: 1.83;\">\n  </a-entity>\n\n  <a-entity\n    target-video=\"name: watertank-v2; video: #watertank;\"\n    material=\"shader: chromakey; src: #watertank; color: 0.1 0.9 0.2\"\n    geometry=\"primitive: plane; height: 1.1; width: 1;\">\n  </a-entity>\n\n</a-scene>\n","develop","",false,"/disruptive-tech/","dist_802c8a06a8b7dbc0b9aaf8dbb9e8dc1d97ca651b-ad60fe06430d91f20edc7018d21cef55_")</script>
+     </body>
+  </html>
